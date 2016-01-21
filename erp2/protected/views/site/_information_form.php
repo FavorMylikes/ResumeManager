@@ -14,7 +14,7 @@ $box = $this->beginWidget(
         'headerIcon' => 'user',
         'headerHtmlOptions'=>array('align'=>'center'),
         'contentHtmlOptions'=>array('align'=>'center','style'=>'margin:20px auto;'),
-        'htmlOptions' => array('class' => 'bootstrap-widget-table','style'=>'margin:0 auto;')
+        'htmlOptions' => array('class' => '','style'=>'margin:0 auto;')
     )
 );
 $this->widget(
