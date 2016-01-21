@@ -14,6 +14,10 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+
+	<script>less = {env: 'development'}</script>
+	<!-- dev use --><link rel="stylesheet/less" type="text/css" href="<?php echo Yii::app()->baseUrl; ?>/css/less/bootstrap.less">
+	<!-- dev use --><script type="text/javascript" src="<?php echo Yii::app()->baseUrl; ?>/css/less/other/less.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
